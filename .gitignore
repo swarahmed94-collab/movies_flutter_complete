@@ -17,3 +17,26 @@ lib/firebase_options.dart
 *.keystore
 *.jks
 key.properties
+
+# Generated and temporary workspace files
+.dart_tool/
+build/
+coverage/
+Pods/
+.symlinks/
+DerivedData/
+.idea/
+.vscode/
+.DS_Store
+.movies_*
+patch_templates/
+ui_patch_assets/
+*.p12
+*.mobileprovision
+*.jks
+*.keystore
+key.properties
+.env*
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
+lib/firebase_options.dart
