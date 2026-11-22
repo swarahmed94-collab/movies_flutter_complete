@@ -1,0 +1,40 @@
+name: movies_app
+description: Dark-theme movie discovery application reconstructed from exported screen designs.
+publish_to: none
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.6.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  flutter_bloc: ^9.1.1
+  dio: ^5.11.0
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  shared_preferences: ^2.5.5
+  firebase_core: ^4.13.0
+  firebase_auth: ^6.5.7
+  cloud_firestore: ^6.8.0
+  google_sign_in: ^7.2.0
+  flutter_screenutil: ^5.9.3
+  flutter_svg: ^2.3.0
+  dartz: ^0.10.1
+  equatable: ^2.1.0
+  get_it: ^9.2.1
+  url_launcher: ^6.3.2
+  youtube_player_iframe: ^5.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icons/
+    - assets/images/

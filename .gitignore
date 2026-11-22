@@ -1,0 +1,19 @@
+# Generated Flutter build and local tool artifacts
+.dart_tool/
+.flutter-plugins*
+.packages
+build/
+coverage/
+.idea/
+*.iml
+.DS_Store
+
+# Firebase project configuration is provided by the app owner
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
+lib/firebase_options.dart
+
+# Keep generated per-device app secrets out of VCS
+*.keystore
+*.jks
+key.properties
